@@ -10,8 +10,8 @@ function johnLennonFacts(array){
   var newArray = []
   let n = 0
   while (array.length < 4){
-    n++
     newArray.push(`${array[n]}!!!`)
+    n++
  }
    return newArray
 }
