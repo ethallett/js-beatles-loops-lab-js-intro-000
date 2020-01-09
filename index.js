@@ -11,11 +11,8 @@ function johnLennonFacts(array){
   let n = 0
   while (array.length < 4){
     n++
-    console.log('n',n)
     newArray.push(`${array[n]}!!!`)
-    console.log('newArray', newArray)
  }
-  return newArray
 
 }
 
