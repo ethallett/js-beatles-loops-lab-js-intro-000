@@ -11,7 +11,7 @@ function johnLennonFacts(array){
   let n = 0
   while (array.length < 4){
     n++
-    array[n] = `${array[n]}!!!`
+    array.push = `${array[n]}!!!`
  }
   return newArray
 
