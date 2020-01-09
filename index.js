@@ -12,7 +12,6 @@ function johnLennonFacts(array){
     n++
   (`${array[n]}!!!`)
  }
-  return array
 }
 
 // function iLoveTheBeatles(number){
